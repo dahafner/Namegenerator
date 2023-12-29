@@ -54,7 +54,7 @@
             groupBox1.Size = new Size(559, 58);
             groupBox1.TabIndex = 0;
             groupBox1.TabStop = false;
-            groupBox1.Text = "Silbenliste";
+            groupBox1.Text = "Syllable lists";
             // 
             // CbxLists
             // 
@@ -78,16 +78,16 @@
             groupBox2.Size = new Size(559, 99);
             groupBox2.TabIndex = 1;
             groupBox2.TabStop = false;
-            groupBox2.Text = "Optionen";
+            groupBox2.Text = "Settings";
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.Location = new Point(6, 58);
             label2.Name = "label2";
-            label2.Size = new Size(67, 15);
+            label2.Size = new Size(74, 15);
             label2.TabIndex = 2;
-            label2.Text = "Vorschläge:";
+            label2.Text = "Suggestions:";
             // 
             // NudSuggestionCount
             // 
@@ -110,9 +110,9 @@
             label1.AutoSize = true;
             label1.Location = new Point(6, 29);
             label1.Name = "label1";
-            label1.Size = new Size(81, 15);
+            label1.Size = new Size(84, 15);
             label1.TabIndex = 0;
-            label1.Text = "Anzahl SIlben:";
+            label1.Text = "Syllable count:";
             // 
             // BtnGenerate
             // 
@@ -121,7 +121,7 @@
             BtnGenerate.Name = "BtnGenerate";
             BtnGenerate.Size = new Size(559, 23);
             BtnGenerate.TabIndex = 2;
-            BtnGenerate.Text = "Generieren";
+            BtnGenerate.Text = "Generate";
             BtnGenerate.UseVisualStyleBackColor = true;
             BtnGenerate.Click += BtnGenerate_Click;
             // 
@@ -133,7 +133,7 @@
             groupBox3.Size = new Size(559, 272);
             groupBox3.TabIndex = 3;
             groupBox3.TabStop = false;
-            groupBox3.Text = "Ergebniss";
+            groupBox3.Text = "Results";
             // 
             // TxtOutput
             // 

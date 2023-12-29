@@ -74,7 +74,7 @@ namespace NameGenerator
 
         private void FrmMain_Load(object sender, EventArgs e)
         {
-            var files = Directory.GetFiles(Application.StartupPath, "_*.json");
+            var files = Directory.GetFiles(Path.Combine(Application.StartupPath, "Lists"), "*.json");
             foreach (var file in files)
             {
                 var json = File.ReadAllText(file);
